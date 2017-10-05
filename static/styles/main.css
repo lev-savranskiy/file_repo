@@ -1,0 +1,223 @@
+body {
+    background-color: #F7F7F7;
+    font-family: "RooneySans-Medium", "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+
+}
+
+.red {
+    color: red;
+}
+
+.orange {
+    color: orange;
+}
+
+.green {
+    color: green;
+}
+
+
+.blue {
+    color: blue;
+}
+
+
+.large {
+    font-size: 20px;
+}
+
+.small {
+    font-size: 12px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.btn-large {
+    width: 300px;
+    margin: 10px 0;
+}
+
+.pointer {
+ cursor: pointer;
+}
+
+.LoginBox {
+    width: 300px;
+    margin: auto;
+}
+
+.hidden, .invisible {
+    display: none;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.center {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.input {
+    border-radius: 5px;
+    border: 2px #DDDDDD solid;
+    margin: 10px 0;
+    height: 40px;
+    padding: 0 10px;
+    width: 300px;
+
+}
+
+.header {
+    background-color: #fff;
+    border-bottom: 2px #DDDDDD solid;
+}
+
+.header .logo1 {
+    margin: 5px 0 5px 30px;
+    display: inline-block;
+}
+
+.profile1 {
+    float: right;
+    display: inline-block;
+    margin: 10px;
+}
+
+.FilesToolbarSearchHolder {
+    border: 3px #DEDBD7 solid;
+    width: 811px;
+}
+
+.FilesToolbarSearch {
+    border: 1px #C0BBB5 solid;
+    border-radius: 2px;
+    height: 50px;
+    /*width: 700px;*/
+}
+
+#reportrange {
+    background: #fff;
+    cursor: pointer;
+    padding: 15px 5px;
+    /*border: 1px solid #ccc;*/
+    font-size: 13px;
+    height: 50px;
+    width: 250px;
+}
+
+.FilesToolbarSearchInput {
+    border: 1px #C0BBB5 solid;
+    border-left: 3px #DEDBD7 solid;
+    border-right: 1px #C0BBB5 ridge;
+    height: 50px;
+    width: 350px;
+    padding: 10px 15px;
+    color: #000;
+}
+
+
+.FilesToolbarSearchSelect {
+    border: 1px #C0BBB5 solid;
+    width: 125px;
+    height: 50px;
+    padding: 9px 5px;
+    border-left: none;
+    border-radius: 0;
+}
+
+.FilesToolbarSearchBtn {
+    height: 50px;
+    width: 80px;
+    border-radius: 0;
+    padding: 9px 29px;
+}
+
+.FilesToolbarAddBtn {
+    height: 50px;
+}
+
+.FilesGridPagerHolder {
+    margin: 30px 0;
+}
+
+
+.FilesGridPagerInfo {
+    color: #9A9691;
+}
+
+.FilesGridPagerLinks  {
+    margin: 0 0 0 20px;
+}
+
+.FilesGridPagerInput {
+    width: 20px;
+}
+
+.FilesGridGrid {
+    margin: 30px 0;
+    background-color: #fff;
+}
+
+
+.actionIcon {
+    font-size: 21px;
+    cursor: pointer;
+}
+
+.actionIconSmall {
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+.file {
+    font-size: 16px;
+}
+
+.TagLabel {
+    width: 100px;
+}
+
+.TagInput, .FilesTypeSelect  {
+    width: 300px;
+}
+
+.TagsHolder {
+    margin: 10px 0;
+}
+
+
+.messageBox {
+    margin: 20px 0;
+}
