@@ -69,7 +69,7 @@ FR.LoginForm = React.createClass({
     validateEmail: function (value) {
         // regex from http://stackoverflow.com/questions/46155/validate-email-address-in-javascript
         var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-        var valid = (value.length > this.rules.email.min) && re.test(value) && (value.indexOf('@thebridgecorp.com') > -1);
+        var valid = (value.length > this.rules.email.min) && re.test(value) && (value.indexOf('@theLevcorp.com') > -1);
         this.state.emailValid = valid;
         this.validateForm();
         return valid;
@@ -109,7 +109,7 @@ FR.LoginForm = React.createClass({
                     minCharacters={this.rules.email.min}
                     validate={this.validateEmail}
                     onChange={this.setEmail}
-                    errorMessage="Please enter email in thebridgecorp.com domain"
+                    errorMessage="Please enter email in theLevcorp.com domain"
                     emptyMessage="Email is required"/>
 
                 <FR.TextInput
