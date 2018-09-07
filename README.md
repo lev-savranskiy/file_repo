@@ -1,4 +1,4 @@
-# Bridge File Repository
+# File Repository
 This Tool will be used across the company to upload download and search campaign related file on AWS. Each file will have searchable meta data. 
 This is an early prototype! I used JSX as coding sugar to make it more "intuitive" to build HTML. It  is not a globally accepted standard. This is the reason why i use third party  babelcore-browser  "compiler" to transform the JSX to vanilla JS, and this is where BABEL comes through. Compiling in the browser has a fairly limited use case. 
 
